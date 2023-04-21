@@ -22,7 +22,7 @@ addButton.addEventListener("click", function() {
         pavardeInput.value = "";
         amziusInput.value = "";
     } else {
-        alert("Užpildykit visus laukelius :)");
+        alert("Užpildykit visus tris laukelius :)");
     }
 })
 removeFirstButton.addEventListener("click", function() {
