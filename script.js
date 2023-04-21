@@ -11,6 +11,9 @@ addButton.addEventListener("click", function() {
     var pavardė = pavardeInput.value;
     var amžius = amziusInput.value;
     if (vardas && pavardė && amžius) {
+        if(amžius<= 0) {
+            alert("Amžiurs turi būti didesnis už nulį")
+        }
         var row = table.insertRow(-1);
         var vardasCell = row.insertCell(0);
         var pavardėCell = row.insertCell(1);
