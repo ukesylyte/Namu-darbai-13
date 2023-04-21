@@ -22,10 +22,9 @@ addButton.addEventListener("click", function() {
         pavardeInput.value = "";
         amziusInput.value = "";
     } else {
-        alert("Laukelis tuščias :)");
+        alert("Užpildykit visus laukelius :)");
     }
 })
-
 removeFirstButton.addEventListener("click", function() {
     if (table.rows.length > 1) {
         table.deleteRow(1);
@@ -33,7 +32,6 @@ removeFirstButton.addEventListener("click", function() {
         alert("Nebėra ką trinti");
     }
 })
-
 removeLastButton.addEventListener("click", function() {
     if (table.rows.length > 1) {
         table.deleteRow(-1);
